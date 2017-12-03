@@ -17,7 +17,7 @@ npm run build
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-安装步骤：
+项目安装步骤：
 1,在硬盘上创建一个文件夹，在终端中进入该目录。 cd 目录路径;
 2,创建项目，在命令行输入vue init webpack-simple  (use sass)
 3,安装项目依赖：npm install
