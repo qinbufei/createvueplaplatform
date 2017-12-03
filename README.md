@@ -44,7 +44,7 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
   <style>
 
   </style>
-7，然后在 App.vue 使用组件 ( 因为在 index.html 里面定义了所以就以这个组件作为主入口，方便。不过怎样把一个组件作为主入口？)，第一步，引入。在<script></script>标签内的第一行写import firstcomponent from ‘./component.vue’；第二步，注册。在<script></script>标签内的data代码块后面加上components:{firstcomponent}。如果{}内加新的组件，记得中间加英文逗号。第三步，使用。在<template></template>内加上：
+7，然后在 App.vue 使用组件 ( 因为在 index.html 里面定义了所以就以这个组件作为主入口，方便。)，第一步，引入。在<script></script>标签内的第一行写import firstcomponent from ‘./component.vue’；第二步，注册。在<script></script>标签内的data代码块后面加上components:{firstcomponent}。如果{}内加新的组件，记得中间加英文逗号。第三步，使用。在<template></template>内加上：
 <template>
   <div id="app">
     <img src="./assets/logo.png">
